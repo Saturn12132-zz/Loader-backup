@@ -214,25 +214,6 @@ function RUN_FUNCTION(name, extension, configOpt)
             Direction = Enum.EasingDirection.In,
             TIME = .4
         })
-	
-        wait(.5)
-        createTween(Message,{TextTransparency = 1}, {
-            Style = Enum.EasingStyle.Linear,
-            Direction = Enum.EasingDirection.In,
-            TIME = .4
-        })
-    
-        createTween(Title,{TextTransparency = 1}, {
-            Style = Enum.EasingStyle.Linear,
-            Direction = Enum.EasingDirection.In,
-            TIME = .4
-        })
-    
-        createTween(Loader,{Size = UDim2.new(0, 0, 0, 0)}, {
-            Style = Enum.EasingStyle.Linear,
-            Direction = Enum.EasingDirection.In,
-            TIME = .4
-        }).Completed:Wait(1)
     
         loadstring(settings.Executable)()
         BlueXLoader:Destroy()
