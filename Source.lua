@@ -68,7 +68,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Loader.Name = "Loader"
         Loader.Parent = BlueXLoader
         Loader.AnchorPoint = Vector2.new(0.5, 0.5)
-        Loader.BackgroundColor3 = Color3.fromRGB(58, 94, 255)
+        Loader.BackgroundColor3 = Color3.fromRGB(74, 99, 135)
         Loader.BorderColor3 = Color3.fromRGB(58, 94, 255)
         Loader.BorderSizePixel = 2
         Loader.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -98,7 +98,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Title.ZIndex = 4
         Title.Font = Enum.Font.SourceSansBold
         Title.Text = name or "BlueX HUB | Loader"
-        Title.TextColor3 = Color3.fromRGB(197, 197, 197)
+        Title.TextColor3 = Color3.fromRGB(74, 99, 135)
         Title.TextSize = 22.000
         Title.TextTransparency = 1
 
@@ -116,7 +116,7 @@ function RUN_FUNCTION(name, extension, configOpt)
 
         Bar.Name = "Bar"
         Bar.Parent = LoadBar
-        Bar.BackgroundColor3 = Color3.fromRGB(58, 94, 255)
+        Bar.BackgroundColor3 = Color3.fromRGB(74, 99, 135)
         Bar.BorderSizePixel = 0
         Bar.Size = UDim2.new(0, 0, 1, 0)
         Bar.ZIndex = 4
@@ -137,7 +137,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Message.ZIndex = 4
         Message.Font = Enum.Font.SourceSansItalic
         Message.Text = settings.StartMessage or "Welcome, " .. game:GetService("Players").LocalPlayer.Name
-        Message.TextColor3 = Color3.fromRGB(197, 197, 197)
+        Message.TextColor3 = Color3.fromRGB(74, 99, 135)
         Message.TextSize = 22.000
         Message.TextTransparency = 1
 			
