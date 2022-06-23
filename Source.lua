@@ -80,7 +80,7 @@ function RUN_FUNCTION(name, extension, configOpt)
         Menu.Name = "Menu"
         Menu.Parent = Loader
         Menu.AnchorPoint = Vector2.new(0.5, 0.5)
-        Menu.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+        Menu.BackgroundColor3 = Color3.fromRGB(28, 29, 34)
         Menu.Position = UDim2.new(0.5, 0, 0.5, 0)
         Menu.Size = UDim2.new(1, -4, 1, -4)
 
