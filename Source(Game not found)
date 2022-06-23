@@ -214,8 +214,7 @@ function RUN_FUNCTION(name, extension, configOpt)
             Direction = Enum.EasingDirection.In,
             TIME = .4
         })
-    
-        Message.Text = "Loaded!"
+	
         wait(.5)
         createTween(Message,{TextTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
